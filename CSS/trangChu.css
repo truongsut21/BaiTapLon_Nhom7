@@ -1,0 +1,273 @@
+.website{
+    width: 80%;
+    margin: auto;
+    background-color:#FFFFFF;
+}
+.header {
+    height: 140px;
+    /*background-image: linear-gradient : chuyen tiep mau*/
+    background-image: linear-gradient(0, #fceddf, #fdd8b7); 
+}
+
+.grid {
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header_navbar{
+    display: flex;
+    margin: 0 24px;
+    justify-content: space-between;
+}
+
+.navbar_list {
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0 0 0;
+}
+
+.navbar_item{
+    margin: 0 8px; /* day 2 ptu cach xa nhau*/
+    position: relative;
+}
+
+.navbar_item,
+.navbar_item_link {
+    display: inline-block;  /*inline-block cho li len cung 1 hang ma van giu tinh chat block*/
+    font-size: 1.2rem;
+    color: var(--black-color);
+    text-decoration: none; /*bo gach chan the li*/
+    font-weight: 100;
+}
+
+.navbar_item:hover,
+.navbar_item_link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar_item_link-strong {
+    font-weight: 400;
+}
+
+.navbar_item_link-separate::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background-color: #d1b092;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header_logo_search{
+    display: flex;
+    align-items: center;
+}
+
+.header_logo{
+    width: 200px;
+    height: 110px;
+}
+
+.logo{
+    margin-left: 32px;
+    width: 110px;
+    height: 100px;
+}
+
+.header_search{
+    flex: 1;
+    height: 40px;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header_cart{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.header_cart_icon{
+    color:#EEBD91;
+    font-size: 2.6rem;
+}
+
+.header_cart_icon:hover{
+    cursor: pointer;
+    color: #ecc19c;
+
+}
+
+.header_search_input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0 16px;
+    border-radius: 3px;
+}
+
+.header_search_btn{
+    width: 60px;
+    height: 34px;
+    background-color: #EEBD91;
+    margin-right: 3px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.header_search_btn:hover{
+    cursor: pointer;
+    background-color: #ecc19c;
+}
+
+.header_search_icon{
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.auth-form{
+	width: 500px;
+	border-radius: 5px;
+	background: var(--white-color);
+	overflow: hidden;
+}
+
+.auth-form__container{
+	padding: 32px;
+	padding-bottom: 22px;
+}
+
+.auth-form__header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 12px;
+}
+
+.auth-form__heading{
+	font-size: 2.2rem;
+	font-weight: 400;
+	color: var(--text-color);
+}
+
+.auth-form__switch-btn{
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: var(--primary-color);
+	cursor: pointer;
+}
+
+.auth-form__input{
+	width: 100%;
+	height: 40px;
+	margin-top: 16px;
+	padding: 0 12px;
+	font-size: 1.4rem;
+	border-radius: 2px;
+	border: 1px solid var(--border-color);
+	outline: none;
+}
+
+.auth-form__input:focus{
+	border-color: #777;
+}
+
+.auth-form__aside{
+	margin-top: 18px;
+}
+
+.auth-form__policy-text{
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	text-align: center;
+	padding: 0 10px;
+}
+
+.auth-form__policy-link{
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.auth-form__controls{
+	margin-top: 80px;
+}
+
+.btn.btn--primary{
+	background: var(--primary-color);
+	color: var(--white-color);
+}
+
+.auth-form__controls{
+	display: flex;
+	justify-content: flex-end;
+}
+.auth-form__controls-back{
+	margin-right: 8px;
+}
+
+.auth-form__controls-back:hover{
+	background-color: rgba(0, 0, 0, 0.05);
+} 
+
+.auth-form__socials{
+	background: #f5f5f5;
+	padding: 14px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.auth-form__socials-icon{
+	font-size: 1.8rem;
+}
+
+.auth-form__socials--facebook,
+.auth-form__socials--google{
+	color: var(--white-color);
+	width: 210px;
+}
+
+.auth-form__socials--facebook{
+	background: #3a5a98;
+	color: var(--white-color);
+}
+
+.auth-form__socials-title{
+	margin: 0 0 0 30px;
+}
+
+.auth-form__socials--google{
+	color: var(--text-color);
+}
+
+.auth-form-help{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.auth-form__help-link{
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: #939393;
+}
+
+.auth-form-help-separate{
+	display: block;
+	width: 1px;
+	height: 22px;
+	background: #eaeaea;
+	margin: 1px 16px 0;
+}
+
+.auth-form-help-fogot{
+	color: var(--primary-color);
+}

@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <!-- <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/fontawesome/css/all.min.css">
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./JS/main.js"></script> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/fontawesome/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./JS/main.js"></script>
+
+    <link rel="stylesheet" href="./CSS/index.css">
+
+</head>
+
+<body>
+    <div class="website">
+        <div class="container-fluid">
+            <header class="header">
+                <div class="header__top">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7">
+                            <div class="header__top__left ml-4">
+                                <p>Miễn phí vận chuyển, đổi trả hàng trong vòng 7 ngày.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-5">
+                            <div class="header__top__right">
+                                <div class="header__top__links">
+
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                        <a href="./HTML/dangNhap.html">Đăng nhập</a>
+                                    </button>
+
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                        <a href="./HTML/dangKy.html">Đăng ký</a>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="fixNav">
+                <a class="navbar-brand" href="#">
+                    <img src="./IMG/logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/DanhMucSanPhamQuanAo.html">
+                                SẢN PHẨM
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./HTML/LienHe.html">LIÊN HỆ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/SiteMap.html">SITEMAP</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 mr-2">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+            <!-- <div class="head_section">
+
+            </div> -->
+
+            <!-- Carousel -->
+            <div id="nav_carousel" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <li type="button" data-bs-target="#nav_carousel" data-bs-slide-to="0" class="active"></li>
+                    <li type="button" data-bs-target="#nav_carousel" data-bs-slide-to="1"></li>
+                    <li type="button" data-bs-target="#nav_carousel" data-bs-slide-to="2"></li>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./IMG/car2.jpg" alt="" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/car1.jpg" alt="" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./IMG/car3.png" alt="" class="d-block" style="width:100%">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <a class="carousel-control-prev" type="button" data-bs-target="#nav_carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" type="button" data-bs-target="#nav_carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <section class="banner spad">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12 col-sm-12 offset-lg-4">
+                            <div class="banner__item">
+                                <div class="banner__item__pic">
+                                    <a href="./HTML/DanhMucSanPhamQuanAo.html"><img src="./IMG/quanAo.jpg" alt=""></a>
+                                </div>
+                                <div class="banner__item__text">
+                                    <h2>Quần áo</h2>
+                                    <a href="./HTML/DanhMucSanPhamQuanAo.html">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="banner__item banner__item--middle">
+                                <div class="banner__item__pic">
+                                    <a href="./HTML/DanhMucSanPhamPhuKien.html"><img src="./IMG/phuKien.jpg" alt=""></a>
+                                </div>
+                                <div class="banner__item__text">
+                                    <h2>Phụ kiện</h2>
+                                    <a href="./HTML/DanhMucSanPhamPhuKien.html">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+                            <div class="banner__item banner__item--last">
+                                <div class="banner__item__pic">
+                                    <a href="./HTML/DanhMucSanPhamGiayDep.html"><img src="./IMG/giayDep.jpg" alt=""></a>
+                                </div>
+                                <div class="banner__item__text">
+                                    <h2>Giày dép</h2>
+                                    <a href="./HTML/DanhMucSanPhamGiayDep.html">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="grid">
+                    <div class="row">
+                        <div class="noiBat col-12">
+                            <h1>Sản phẩm yêu thích</h1>
+                            <div class="noiBat-content col-12">
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <div class="noiBat-img">
+                                        <a href="./HTML/chiTiet1.html">
+                                            <img src="./IMG/AO1.1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Áo Croptop Cúc Bật</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Áo croptop viền bèo cúc bật form ôm body siêu xinh đủ màu sắc cho các cậu
+                                            nha <3 </p>
+                                                <a href="./HTML/chiTiet1.html">
+                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                        Xem
+                                                    </button>
+                                                </a>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <div class="noiBat-img">
+                                        <a href="./HTML/chiTiet2.html"><img src="./IMG/VAY8.jpg" alt=""></a>
+                                    </div>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Váy nữ baby</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Váy nữ baby xanh trẻ trung, xinh xắn. Phù hợp đi chơi, đi học...
+                                        </p>
+                                        <a href="./HTML/chiTiet2.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet5.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DEP5.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Sandal cao gót tiểu thư dự tiệc</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Sandal cao gót tiểu thư dự tiệc kết hợp nơ, 2 màu trắng, đen.
+                                        </p>
+                                        <a href="./HTML/chiTiet5.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet4.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DEP8.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Giày thể thao nữ vải caro đan kim tuyến</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Giày thể thao nữ vải caro đan kim tuyến xinh đẹp, phù hợp đi chơi, đi làm,
+                                            đi học
+                                        </p>
+                                        <a href="./HTML/chiTiet4.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet3.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DH1.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Đồng Hồ Nữ Chính Hãng Dây Da</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Đồng Hồ Nữ Chính Hãng Dây Da Royal Crown 6305 Chống Nước Chống Xước
+                                        </p>
+                                        <a href="./HTML/chiTiet3.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+            </section>
+
+            <section>
+                <div class="grid">
+                    <div class="row">
+                        <div class="noiBat col-12">
+                            <h1>Sản phẩm giảm giá</h1>
+                            <div class="noiBat-content col-12">
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet3.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DH1.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Đồng Hồ Nữ Chính Hãng Dây Da</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Đồng Hồ Nữ Chính Hãng Dây Da Royal Crown 6305 Chống Nước Chống Xước
+                                        </p>
+                                        <a href="./HTML/chiTiet3.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">50%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet4.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DEP8.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Giày thể thao nữ vải caro đan kim tuyến</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Giày thể thao nữ vải caro đan kim tuyến xinh đẹp, phù hợp đi chơi, đi làm,
+                                            đi học
+                                        </p>
+                                        <a href="./HTML/chiTiet4.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">50%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <div class="noiBat-img">
+                                        <a href="./HTML/chiTiet1.html">
+                                            <img src="./IMG/AO1.1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Áo Croptop Cúc Bật</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Áo croptop viền bèo cúc bật form ôm body siêu xinh đủ màu sắc cho các cậu
+                                            nha <3 </p>
+                                                <a href="./HTML/chiTiet1.html">
+                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                        Xem
+                                                    </button>
+                                                </a>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">50%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet5.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DEP5.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Sandal cao gót tiểu thư dự tiệc</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Sandal cao gót tiểu thư dự tiệc kết hợp nơ, 2 màu trắng, đen.
+                                        </p>
+                                        <a href="./HTML/chiTiet5.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">10%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <div class="noiBat-img">
+                                        <a href="./HTML/chiTiet2.html"><img src="./IMG/VAY8.jpg" alt=""></a>
+                                    </div>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Váy nữ baby</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Váy nữ baby xanh trẻ trung, xinh xắn. Phù hợp đi chơi, đi học...
+                                        </p>
+                                        <a href="./HTML/chiTiet2.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">30%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            
+                        </div>
+                    </div>
+            </section>
+
+            <section>
+                <div class="grid">
+                    <div class="row">
+                        <div class="noiBat col-12">
+                            <h1>Top bán chạy</h1>
+                            <div class="noiBat-content col-12">
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet5.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DEP5.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Sandal cao gót tiểu thư dự tiệc</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Sandal cao gót tiểu thư dự tiệc kết hợp nơ, 2 màu trắng, đen.
+                                        </p>
+                                        <a href="./HTML/chiTiet5.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__top">
+                                        <span class="home-product-item__top-percent">Top</span>
+                                        <span class="home-product-item__top-label">1</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <div class="noiBat-img">
+                                        <a href="./HTML/chiTiet1.html">
+                                            <img src="./IMG/AO1.1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Áo Croptop Cúc Bật</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Áo croptop viền bèo cúc bật form ôm body siêu xinh đủ màu sắc cho các cậu
+                                            nha <3 </p>
+                                                <a href="./HTML/chiTiet1.html">
+                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                        Xem
+                                                    </button>
+                                                </a>
+                                    </div>
+                                    <div class="home-product-item__top">
+                                        <span class="home-product-item__top-percent">Top</span>
+                                        <span class="home-product-item__top-label">2</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet4.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DEP8.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Giày thể thao nữ vải caro đan kim tuyến</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Giày thể thao nữ vải caro đan kim tuyến xinh đẹp, phù hợp đi chơi, đi làm,
+                                            đi học
+                                        </p>
+                                        <a href="./HTML/chiTiet4.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__top">
+                                        <span class="home-product-item__top-percent">Top</span>
+                                        <span class="home-product-item__top-label">3</span>
+                                    </div>
+                                </div>
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <a href="./HTML/chiTiet3.html">
+                                        <div class="noiBat-img">
+                                            <img src="./IMG/DH1.jpg" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Đồng Hồ Nữ Chính Hãng Dây Da</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Đồng Hồ Nữ Chính Hãng Dây Da Royal Crown 6305 Chống Nước Chống Xước
+                                        </p>
+                                        <a href="./HTML/chiTiet3.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__top">
+                                        <span class="home-product-item__top-percent">Top</span>
+                                        <span class="home-product-item__top-label">4</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="noiBat-item col-12 col-sm-2 col-md-2">
+                                    <div class="noiBat-img">
+                                        <a href="./HTML/chiTiet2.html"><img src="./IMG/VAY8.jpg" alt=""></a>
+                                    </div>
+                                    <div class="noiBat-text">
+                                        <div class="noiBat_label">
+                                            <h3>Váy nữ baby</h3>
+                                        </div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            Váy nữ baby xanh trẻ trung, xinh xắn. Phù hợp đi chơi, đi học...
+                                        </p>
+                                        <a href="./HTML/chiTiet2.html">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                                Xem
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="home-product-item__top">
+                                        <span class="home-product-item__top-percent">Top</span>
+                                        <span class="home-product-item__top-label">5</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section>
+                <div class="grid">
+                    <div class="camNhan">
+                        <h1>Cảm nhận của khách hàng</h1>
+                        <div class="camNhan-content">
+                            <div class="camNhan-item col-12 col-sm-2 col-md-2">
+                                <div class="camNhan-item-top">
+                                    <i class="fa-sharp fa-solid fa-comment-lines"></i>
+                                    <i class="fa-sharp fa-solid fa-comment img"></i>
+                                    <p> <span>&ldquo;</span>
+                                        Chất liệu tốt, sẳn phẩm dẹp. Giao hàng nhanh. Giá cả hợp lý
+                                        <span>&rdquo;</span>
+                                    </p>
+                                </div>
+                                <div class="camNhan-item-bottom">
+                                    <img src="./IMG/avt.jpg" alt="">
+                                    <div>
+
+                                        <h5>Dieu Linh</h5>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="camNhan-item col-12 col-sm-2 col-md-2">
+                                <div class="camNhan-item-top">
+                                    <i class="fa-sharp fa-solid fa-comment img"></i>
+                                    <p> <span>&ldquo;</span>
+                                        Chất liệu tốt, sẳn phẩm dẹp. Giao hàng nhanh. Giá cả hợp lý
+                                        <span>&rdquo;</span>
+                                    </p>
+                                </div>
+                                <div class="camNhan-item-bottom">
+                                    <img src="./IMG/avt.jpg" alt="">
+                                    <div>
+
+                                        <h5>Quoc Long</h5>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="camNhan-item col-12 col-sm-2 col-md-2">
+                                <div class="camNhan-item-top">
+                                    <i class="fa-sharp fa-solid fa-comment img"></i>
+                                    <p> <span>&ldquo;</span>
+                                        Chất liệu tốt, sẳn phẩm dẹp. Giao hàng nhanh. Giá cả hợp lý
+                                        <span>&rdquo;</span>
+                                    </p>
+                                </div>
+                                <div class="camNhan-item-bottom">
+                                    <img src="./IMG/avt.jpg" alt="">
+                                    <div>
+
+                                        <h5>Men</h5>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="camNhan-item col-12 col-sm-2 col-md-2">
+                                <div class="camNhan-item-top">
+                                    <i class="fa-sharp fa-solid fa-comment img"></i>
+                                    <p> <span>&ldquo;</span>
+                                        Chất liệu tốt, sẳn phẩm dẹp. Giao hàng nhanh. Giá cả hợp lý
+                                        <span>&rdquo;</span>
+                                    </p>
+                                </div>
+                                <div class="camNhan-item-bottom">
+                                    <img src="./IMG/avt.jpg" alt="">
+                                    <div>
+
+                                        <h5>G Khanh</h5>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="camNhan-item col-12 col-sm-2 col-md-2">
+                                <div class="camNhan-item-top">
+                                    <i class="fa-sharp fa-solid fa-comment img"></i>
+                                    <p> <span>&ldquo;</span>
+                                        Chất liệu tốt, sẳn phẩm dẹp. Giao hàng nhanh. Giá cả hợp lý
+                                        <span>&rdquo;</span>
+                                    </p>
+                                </div>
+                                <div class="camNhan-item-bottom">
+                                    <img src="./IMG/avt.jpg" alt="">
+                                    <div>
+
+                                        <h5>V Khanh</h5>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="camNhan-item col-12 col-sm-2 col-md-2">
+                                <div class="camNhan-item-top">
+                                    <i class="fa-sharp fa-solid fa-comment img"></i>
+                                    <p> <span>&ldquo;</span>
+                                        Chất liệu tốt, sẳn phẩm dẹp. Giao hàng nhanh. Giá cả hợp lý
+                                        <span>&rdquo;</span>
+                                    </p>
+                                </div>
+                                <div class="camNhan-item-bottom">
+                                    <img src="./IMG/avt.jpg" alt="">
+                                    <div>
+
+                                        <h5>Linh</h5>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="row col-12 thanhVien">
+                <h3>Thông tin thành viên nhóm 7</h3>
+            </div>
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#Linh">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Diệu Linh
+                        </button>
+                    </a></li>
+                <li><a data-toggle="tab" href="#Men">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Mến
+                        </button>
+                    </a></li>
+                <li><a data-toggle="tab" href="#Long">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Quốc Long
+                        </button>
+                    </a></li>
+                <li><a data-toggle="tab" href="#GKhanh">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Gia Khánh
+                        </button>
+                    </a></li>
+                <li><a data-toggle="tab" href="#VKhanh">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Vinh Khánh
+                        </button>
+                    </a></li>
+
+            </ul>
+
+            <div class="tab-content">
+                <div id="Linh" class="tab-pane active fade in">
+                    <h3>Nguyễn Thị Diệu Linh</h3>
+                    <p>Mã số sinh viên: 20017091</p>
+                    <p>Vị trí: Nhóm Trưởng</p>
+                    <p>Công việc: Phân công công việc, xây dựng Trang chủ, tổng hợp bài làm.</p>
+                </div>
+                <div id="Men" class="tab-pane fade">
+                    <h3>Nguyễn Thị Mến</h3>
+                    <p>Mã số sinh viên: 20115481</p>
+                    <p>Vị trí: Thành viên</p>
+                    <p>Công việc: Xây dựng Danh mục sản phẩm.</p>
+                </div>
+                <div id="Long" class="tab-pane fade">
+                    <h3>Hà Quốc Long</h3>
+                    <p>Mã số sinh viên: 20011221</p>
+                    <p>Vị trí: Thành viên</p>
+                    <p>Công việc: Xây dựng trang Liên hệ.</p>
+                </div>
+                <div id="GKhanh" class="tab-pane fade">
+                    <h3>Trần Hoàng Gia Khánh</h3>
+                    <p>Mã số sinh viên: 20039261</p>
+                    <p>Vị trí: Thành viên</p>
+                    <p>Công việc: Xây dựng trang Đăng ký, Đăng nhập.</p>
+                </div>
+                <div id="VKhanh" class="tab-pane fade">
+                    <h3>Nguyễn Vinh Khánh</h3>
+                    <p>Mã số sinh viên: 19501961</p>
+                    <p>Vị trí: Thành viên</p>
+                    <p>Công việc: Xây dựng trang Thông tin sản phẩm chi tiết.</p>
+                </div>
+            </div>
+
+
+        </footer>
+        <div class="footer1">
+            <p>&#169; Bản quyền thuộc về 2217 Shop</p>
+        </div>
+
+    </div>
+
+    <script src="./JS/main.js"></script>
+
+</body>
+
+</html>
